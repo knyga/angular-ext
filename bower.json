@@ -27,6 +27,7 @@
     "inherit",
     "scope",
     "rootScope",
-    "knyga"
+    "knyga",
+    "mixin"
   ]
 }

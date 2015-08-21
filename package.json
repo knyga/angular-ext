@@ -20,7 +20,8 @@
     "inherit",
     "scope",
     "rootScope",
-    "knyga"
+    "knyga",
+    "mixin"
   ],
   "dependencies": {
     "gulp": "^3.9.0",
