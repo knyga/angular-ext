@@ -1,0 +1,32 @@
+{
+  "name": "angular-ext",
+  "version": "0.0.1",
+  "homepage": "https://github.com/knyga/angular-ext",
+  "authors": [
+    "Oleksandr Knyga <oleksandrknyga@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.4",
+    "angular-mocks": "~1.4.4"
+  },
+  "description": "Extention to angular that allows to inherit(extend) controllers.",
+  "keywords": [
+    "angular",
+    "extention",
+    "controller",
+    "extend",
+    "inheritance",
+    "inherit",
+    "scope",
+    "rootScope",
+    "knyga"
+  ]
+}
