@@ -29,5 +29,8 @@
     "rootScope",
     "knyga",
     "mixin"
+  ],
+  "main": [
+    "dist/angular-ext.js"
   ]
 }
