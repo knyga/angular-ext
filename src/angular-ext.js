@@ -9,6 +9,11 @@
     angular.extModule = function() {
         var module = angular.module.apply(this, arguments);
         module.extController = function(name, extdNames, params) {
+            if(typeof params === "undefined") {
+                params = extdNames;
+                extdNames = [];
+            }
+
             var executor = params[params.length-1];
             params.splice(params.length-1, 0, '$controller');
             params[params.length-1] = function() {

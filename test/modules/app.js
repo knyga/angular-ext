@@ -4,7 +4,7 @@ angular.extModule('App', [])
     }]);
 
 angular.extModule('App')
-    .extController('AppParentCtrl', [], ['$scope', function ($scope) {
+    .extController('AppParentCtrl', ['$scope', function ($scope) {
         'use strict';
 
         $scope.parent = 'I am parent';

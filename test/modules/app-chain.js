@@ -2,7 +2,7 @@ angular.extModule('AppChain', [])
     .run(['$rootScope', function($rootScope) {
 
     }])
-    .extController('AppChainParentCtrl', [], ['$scope', function ($scope) {
+    .extController('AppChainParentCtrl', ['$scope', function ($scope) {
         'use strict';
 
         $scope.getState = function() {
