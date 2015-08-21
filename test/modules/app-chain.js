@@ -10,7 +10,7 @@ angular.extModule('AppChain', [])
         };
     }])
     .extController('AppChainCtrl', ['AppChainParentCtrl'], ['$scope',
-        function ($scope, $state, $stateParams, formMenuItems) {
+        function ($scope) {
             'use strict';
             var parentState = $scope.getState();
 

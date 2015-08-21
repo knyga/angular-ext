@@ -13,7 +13,7 @@ angular.extModule('App')
 
 angular.extModule('App')
     .extController('AppCtrl', ['AppParentCtrl'], ['$scope',
-        function ($scope, $state, $stateParams, formMenuItems) {
+        function ($scope) {
             'use strict';
 
             $scope.child = 'I am child';
