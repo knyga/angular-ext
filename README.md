@@ -4,11 +4,11 @@ Extention to angular that allows to inherit(extend) controllers.
 ## Installation
 ### Bower
 ```bower install --save angular-ext``` or add `angular-ext` to dependencies of your bower.json and do ```bower install```.
+Add `angular-ext.js` script after angular.
 
 ### Manually
 Take file ```angular-ext.js``` from dist folder.
-
-Require script after angular!
+Add `angular-ext.js` script after angular.
 
 ## How to use
 ```javascript
